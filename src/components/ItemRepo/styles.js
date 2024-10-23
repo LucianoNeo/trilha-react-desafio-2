@@ -14,8 +14,13 @@ export const ItemContainer = styled.div`
         margin-bottom:20px;
     }
 
-    a.remover {
-        color: #FF0000;
+    .remover {
+        color: #000;
+        border-radius: 20px;
+        border-color: red;
+        padding: 5px 20px;
+        cursor: pointer;
+        background-color: red;
         margin-top:20px;
     }
 
